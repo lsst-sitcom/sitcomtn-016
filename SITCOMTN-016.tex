@@ -3,8 +3,18 @@
 \input{meta}
 
 % Package imports go here.
+\usepackage{graphicx} % Formats for images
+\usepackage{booktabs} % For \toprule, \midrule and \bottomrule
+\usepackage{multirow} % Required for multirows
+\usepackage{pdflscape}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{booktabs}
+\usepackage{caption}
 
 % Local commands go here.
+\pgfplotsset{width=7.5cm,compat=1.16}
 
 %If you want glossaries
 %\input{aglossary.tex}
@@ -16,7 +26,7 @@
 % \setDocSubtitle{A subtitle}
 
 \author{%
-Austin Roberts
+Austin Roberts, Holger Drass, Brain Stalder
 }
 
 \setDocRef{SITCOMTN-016}
@@ -25,7 +35,7 @@ Austin Roberts
 \date{\vcsDate}
 
 % Optional: name of the document's curator
-% \setDocCurator{The Curator of this Document}
+% \setDocCurator{Austin Roberts}
 
 \setDocAbstract{%
 The Camera Cable Wrap / Camera Rotator synchronous motion limit switch characterization will identify the optimal placement of the limit switches based on a variety of factors. This characterization is to complete the follow on work defined in SITCOMTN-011 now that ComCam has been installed on the rotator with the redesigned bulkhead plate.
@@ -36,7 +46,7 @@ The Camera Cable Wrap / Camera Rotator synchronous motion limit switch character
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{YYYY-MM-DD}{Unreleased.}{Austin Roberts}
+  \addtohist{1}{2021-08-17}{Initial Release.}{Austin Roberts}
 }
 
 
